@@ -68,7 +68,7 @@ def on_press(key):
                     current_word += key.char.upper()
                 else:
                     current_word += key.char.lower()
-                print(f"Current word: {current_word}")
+                # print(f"Current word: {current_word}")
 
     except Exception as e:
         print(f"Error: {e}")  # Obsługuje wszelkie inne błędy
