@@ -46,8 +46,6 @@ def on_press(key):
                 else:
                     print(f"Normal word: {current_word}")
 
-                current_word = ""
-
         elif hasattr(key, 'char') and key.char is not None:  # Tylko dodajemy, jeśli klawisz jest znakiem
             if key.char in {'!', '?', '.'}:
                 # Jeśli wciśnięto znak kończący zdanie
